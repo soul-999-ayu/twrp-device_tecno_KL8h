@@ -18,3 +18,12 @@ PRODUCT_MODEL := KL8h
 PRODUCT_MANUFACTURER := TECNO
 
 PRODUCT_GMS_CLIENTID_BASE := android-tecno
+
+
+# -----------------------------------------------------------------
+# ORANGEFOX MAINTAINER & AVATAR
+# This is the correct place for these variables.
+# -----------------------------------------------------------------
+OF_MAINTAINER := Ayu Kashyap
+OF_MAINTAINER_AVATAR := $(DEVICE_PATH)/prebuilt/maintainer.png
+# -----------------------------------------------------------------
