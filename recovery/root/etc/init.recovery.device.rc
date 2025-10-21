@@ -1,4 +1,8 @@
+on fs
+    # Mount the vendor partition so firmware is available
+    mount /vendor
+
 on post-fs
-    # Now that vendor is mounted, load the patched touchscreen module
-    # This assumes your patched .ko is at /lib/modules
+    # After vendor is mounted, load the patched touchscreen module
+    # This assumes you are copying the patched .ko to /lib/modules
     insmod /lib/modules/adaptive-ts.ko
