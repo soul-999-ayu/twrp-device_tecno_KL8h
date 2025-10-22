@@ -1,4 +1,0 @@
-on post-fs
-    # Now that vendor is mounted, load the patched touchscreen module
-    # This assumes your patched .ko is at /lib/modules
-    insmod /lib/modules/adaptive-ts.ko
