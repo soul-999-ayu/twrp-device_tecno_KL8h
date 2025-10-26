@@ -8,6 +8,4 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_KL8h.mk
 
 COMMON_LUNCH_CHOICES := \
-    twrp_KL8h-user \
-    twrp_KL8h-userdebug \
-    twrp_KL8h-eng
+    twrp_KL8h-user
